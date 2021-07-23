@@ -2167,7 +2167,8 @@ section {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #df3740;
+  background: #ef4444;
+  border-radius: 25px;
 }
 .counter-up .content {
   z-index: 1;
