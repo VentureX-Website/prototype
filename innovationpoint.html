@@ -52,7 +52,14 @@
           <li><a href="index.html" >Home</a></li>
           <li><a href="index.html#about" class="btn-get-started animate__animated  scrollto">About</a></li>
           <li><a href="events.html">Events</a></li>
-          <li><a href="team.html">The Team</a></li>
+          <li class="dropdown"><a href="team.html">The Team <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="team.html#leaderX">Leader X</a></li>
+              <li><a href="team.html#HRX">HR X</a></li>
+              <li><a href="team.html#eventX">Event X</a></li>
+              <li><a href="team.html#createX">Create X</a></li>
+            </ul>
+          </li>
           <li><a href="#" class="getstarted">InnovateX</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -60,19 +67,98 @@
 
     </div>
   </header><!-- End Header -->
-  <br><br><br><br><br>
-  <main id="main">
-    <div class="container-fluid">
 
-        <!-- 404 Error Text -->
-        <div class="text-center container">
-            <div class="error mx-auto" data-text="404">404</div>
-            <p class="lead text-gray-800 mb-5">Page Under Construction</p>
-            <p class="text-gray-500 mb-0">Will be up and running soon</p>
-            <a href="index.html">&larr; Back to Home Page</a>
+  <main id="main">
+
+     <!-- ======= Breadcrumbs ======= -->
+     <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 style="font-family: 'Montserrat', sans-serif;">Innovate<span style="color:#ef4444;"> X</span></h2> 
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Innovate X</li>
+          </ol>
         </div>
 
-    </div>
+      </div>
+    </section><!-- End Breadcrumbs -->
+    
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-title">
+          <h2>Ongoing Projects</h2>
+          <p>Our Ongoing Projects</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">ChangePay</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Elixir</a>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row content">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>ChangePay</h3>
+                    <p>ChangePay originated as a NITK college startup by the founder Mr.Dyvik, which
+                    eventually started its ventures in multiple campuses across Karnataka. It is an on-campus
+                    delivery startup completely regulated and monitored by the students. <br>The idea has 2 main
+                    elements : smartboxes and a mobile application. 
+                    <ul>
+                      <li><i class="ri-check-double-line"></i>  Smartboxes are digitally encrypted containers
+                        where the delivery items will be safely kept, and then the intended recepient scans the scanner
+                        with his unique ID through which the container or the box can be opened. </li>
+                      <li><i class="ri-check-double-line"></i>  The mobile
+                        application lets the user choose the service they want, payment, and other essential
+                        functionalities.</li>
+                    </ul>
+                     </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/ongoing/changepay.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row content">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Elixer</h3>
+                    <p >ELIXIR(full form) is an internship program provided by SJCE STEP for the pre-final year
+                      students, which is monitored and maintained by VentureX.  </p>
+                      <ul>
+                      <li><i class="ri-check-double-line"></i>  It is an unpaid internship for the
+                        duration of 6 months, where the students work on real-world projects based on their own
+                        innovative ideas or collaborate with on-going projects in STEP.</li>
+                      <li><i class="ri-check-double-line"></i>  The internship is featured to
+                        provide a ground experience to all the interns of the real-time corporate industry along with
+                        enhancing technical and non-technical skills. The project managers of STEP, Mr.Vijayananda
+                        and Mr. Shivshankar, guide the interns throughout the program.</li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/ongoing/internship.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+            
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
     <br><br>
     <br><br>
     <br><br>

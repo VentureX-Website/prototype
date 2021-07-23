@@ -173,6 +173,13 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #556270;
+  white-space: nowrap;
+  transition: 0.3s;
 }
 
 .navbar .dropdown ul li {
@@ -1077,12 +1084,30 @@ section {
   color: #556270;
 }
 
-.features .details p {
+/* .features .details p {
   color: #777777;
-}
+} */
 
 .features .details p:last-child {
   margin-bottom: 0;
+}
+
+.features .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.features .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #d9232d;
 }
 
 @media (max-width: 992px) {
