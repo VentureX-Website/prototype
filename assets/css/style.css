@@ -2171,10 +2171,10 @@ section {
 
 .error {
   color: #5a5c69;
-  font-size: 7rem;
+  font-size: 3rem;
   position: relative;
   line-height: 1;
-  width: 12.5rem;
+  width: 18rem;
 }
 
 @-webkit-keyframes noise-anim {
