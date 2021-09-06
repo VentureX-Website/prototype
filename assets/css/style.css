@@ -1399,6 +1399,27 @@ section {
   margin-bottom: 15px;
   color: #c1c8d0;
 }
+.blog ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.blog ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #d9232d;
+}
+
+.blog p:last-child {
+  margin-bottom: 0;
+}
 
 .blog .entry .entry-meta ul {
   display: flex;
@@ -1428,6 +1449,39 @@ section {
 
 .blog .entry .entry-content p {
   line-height: 24px;
+}
+.blog .entry .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog .entry .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.blog .entry .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #d9232d;
+}
+.blog .entry .bpic {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media (max-width: 992px) {
+  .features .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+  .features .nav-link.active {
+    color: #fff;
+    background: #d9232d;
+  }
 }
 
 .blog .entry .entry-content .read-more {
