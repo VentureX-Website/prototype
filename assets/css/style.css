@@ -683,6 +683,34 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Clientss
+--------------------------------------------------------------*/
+.clientss {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.clientss img {
+  max-width: 70%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  /* filter: grayscale(0); */
+}
+
+.clientss img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .clientss img {
+    max-width: 40%;
+  }
+}
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {

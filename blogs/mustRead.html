@@ -48,7 +48,7 @@
     <header id="header" class="fixed-top d-flex align-items-center">
       <div class="container d-flex align-items-center">
   
-        <a href="../index.html" class="logo me-auto"><img src="../assets/img/logo/logo1.png" alt="" class="img-fluid"></a>
+        <a href="index.html" class="logo me-auto"><img src="../assets/img/logo/logo1.png" alt="" class="img-fluid"></a>
   
         <nav id="navbar" class="navbar">
           <ul>
@@ -65,7 +65,12 @@
               </ul>
             </li>
             <li><a href="../blog.html" class="active">Blogs</a></li>
-            <li><a href="../innovatex.html" class="getstarted">InnovateX</a></li>
+            <li class="dropdown"><a href="../innovatex.html" class="getstarted">InnovateX<i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="../innovatex.html#fund">Partners</a></li>
+                <li><a href="../innovatex.html#ongoin">Ongoing Projects</a></li>
+              </ul>
+            </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -278,7 +283,7 @@
           
           <div class="col-sm" >
             <div class="footer-info">
-                <a href="../index.html" class="logo me-auto"><img src="../assets/img/logo/footLogo.png" alt="" class="img-fluid"></a>
+                <a href="index.html" class="logo me-auto"><img src="assets/img/logo/footLogo.png" alt="" class="img-fluid"></a>
                 <p>
                   <br>
                
@@ -304,8 +309,10 @@
           <div class="col-sm footer-newsletter" style="float:right;"  >
             <h4>Our Newsletter</h4>
             <p>Enter your email to stay updated about the day-to-day activities of the club.</p>
-            <form action="">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <form action="https://formsubmit.co/1ed336063afdfac00db15c12fb3c7670" method="POST">
+              <input type="email" name="email" placeholder="Enter your email" required>
+              <input type="hidden" name="_next" value="https://venturex.netlify.app">
+              <input type="submit" value="Subscribe">
             </form>
 
           </div>
@@ -331,15 +338,15 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="../assets/vendor/php-email-form/validate.js"></script>
-  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
