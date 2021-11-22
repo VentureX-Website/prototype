@@ -2558,7 +2558,7 @@ section {
 }
 
 #step .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -2575,4 +2575,24 @@ section {
 
 #step .btn-get-started:hover {
   background: #df3740;
+}
+
+#submit .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #d9232d;
+}
+
+#submit .btn-get-started:hover {
+  background: #ef4444;
 }
