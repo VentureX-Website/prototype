@@ -192,3 +192,41 @@
     });
   }
 })();
+
+/* Popup and Blur */
+
+window.addEventListener("load", function(){
+  this.setTimeout(
+      function open(event){
+          
+          document.querySelector(".blur").style.filter="blur(2px)";
+          document.getElementsByClassName("popup")[0].classList.add("active");
+          disableScroll();
+      },
+      1100
+  )
+})
+
+
+document.getElementById("dismiss-popup-btn").addEventListener("click", function(){
+  document.querySelector(".blur").style.filter="none";
+  document.getElementsByClassName("popup")[0].classList.remove("active");
+  enableScroll();
+  
+});
+
+
+function disableScroll() {
+  // Get the current page scroll position
+  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+
+      // if any scroll is attempted, set this to the previous value
+      window.onscroll = function() {
+          window.scrollTo(scrollLeft, scrollTop);
+      };
+}
+
+function enableScroll() {
+  window.onscroll = function() {};
+}
