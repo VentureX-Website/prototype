@@ -2657,3 +2657,9 @@ section {
   text-decoration: none;
   padding: 5px 0;
 }
+
+@media screen and (max-width: 580px) {
+  .popup {
+    width: 85%;
+  }
+}
