@@ -2608,10 +2608,10 @@ section {
 
 .popup {
   width: 450px;
-  height: 280x;
-  padding: 30px 40px;
+  height: 200x;
+  padding: 15px 20px;
   background: #ffffff;
-  border-radius: 8px;
+  border-radius: 4px;
   box-sizing: border-box;
   z-index: 2;
   opacity: 0;
@@ -2631,12 +2631,12 @@ section {
 .popup .description p {
   font-size: 14px;
   text-align: justify;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .popup .dismiss-btn button {
   display: block;
-  margin: 0 0 20px auto;
+  margin: 0 0 2px auto;
   background-color: transparent;
   font-size: 30px;
   color: #c5c5c5;
@@ -2645,7 +2645,7 @@ section {
   cursor: pointer;
 }
 
-.popup a {
+/* .popup a {
   display: block;
   width: 150px;
   position: relative;
@@ -2656,7 +2656,7 @@ section {
   color: #ffffff;
   text-decoration: none;
   padding: 5px 0;
-}
+} */
 
 @media screen and (max-width: 580px) {
   .popup {
